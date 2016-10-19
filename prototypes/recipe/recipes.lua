@@ -16,7 +16,7 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "titanium-plate",
+    name = "titanium-alloy",
     category = "smelting",
     enabled = false,
     energy_required = 5,
@@ -24,7 +24,7 @@ data:extend({
 	{
 	  {"titanium-ore", 3}
 	},
-    result = "titanium-plate"
+    result = "titanium-alloy"
   },
   
   
@@ -48,7 +48,7 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"titanium-plate", 5},
+      {"titanium-alloy", 5},
       {"iron-stick", 4}
     },
     result = "titanium-axe",

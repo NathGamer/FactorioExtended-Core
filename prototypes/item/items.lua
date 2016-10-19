@@ -11,7 +11,7 @@ data:extend({
   },
   {
     type = "item",
-    name = "titanium-plate",
+    name = "titanium-alloy",
     icon = "__FactorioExtended-Core__/graphics/icons/titanium-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fb-material",

@@ -13,7 +13,7 @@ data:extend({
       },
 	  {
         type = "unlock-recipe",
-        recipe = "titanium-plate"
+        recipe = "titanium-alloy"
       },
 	  {
         type = "unlock-recipe",
