@@ -6,11 +6,11 @@ data:extend({
     energy_required = 5,
     enabled = false,
     ingredients = 
-	{
-	  {"iron-ore", 2},
-	  {type="fluid", name="sulfuric-acid", amount=5},
-	  {type="fluid", name="water", amount=2}
-	},
+    {
+      {"iron-ore", 2},
+      {type="fluid", name="sulfuric-acid", amount=5},
+      {type="fluid", name="water", amount=2}
+    },
     result = "titanium-ore",
     result_count = 2
   },
@@ -21,8 +21,8 @@ data:extend({
     enabled = false,
     energy_required = 5,
     ingredients = 
-	{
-	  {"titanium-ore", 1}
+    {
+      {"titanium-ore", 1}
 	},
     result = "titanium-alloy"
   },

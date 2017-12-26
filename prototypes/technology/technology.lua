@@ -3,7 +3,7 @@ data:extend({
     type = "technology",
     name = "titanium-processing",
     icon = "__FactorioExtended-Core__/graphics/technology/steel-processing.png",
-	icon_size = 128,
+    icon_size = 128,
     prerequisites = {"steel-processing", "optics"},
     effects =
     {
@@ -34,7 +34,7 @@ data:extend({
     type = "technology",
     name = "upgraded-tools",
     icon = "__FactorioExtended-Core__/graphics/technology/steel-processing.png",
-	icon_size = 128,
+    icon_size = 128,
     prerequisites = {"titanium-processing"},
     effects =
     {
@@ -63,7 +63,7 @@ data:extend({
     type = "technology",
     name = "upgraded-tools-2",
     icon = "__FactorioExtended-Core__/graphics/technology/steel-processing.png",
-	icon_size = 128,
+    icon_size = 128,
     prerequisites = {"upgraded-tools"},
     effects =
     {
