@@ -1,3 +1,7 @@
+if data.raw.item["titanium-plate"] then
+  bobsmods.plates.replace_recipe_item ("titanium-plate", "titanium-alloy")
+end
+
 data:extend({
   {
     type = "item",
