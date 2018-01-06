@@ -2,6 +2,7 @@ data:extend({
   {
     type = "item-group",
     name = "FactorioExtended",
+	icon_size = 64,
     icon = "__base__/graphics/item-group/signals.png",
     inventory_order = "f",
     order = "f"
@@ -32,15 +33,21 @@ data:extend({
   },
   {
     type = "item-subgroup",
-    name = "fb-energy-production",
+    name = "fb-energy-production-renewable",
     group = "FactorioExtended",
-    order = "e"
+    order = "e-a-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "fb-energy-production-steam",
+    group = "FactorioExtended",
+    order = "e-a-b"
   },
   {
     type = "item-subgroup",
     name = "fb-energy-transfer",
     group = "FactorioExtended",
-    order = "e"
+    order = "e-b"
   },
   {
     type = "item-subgroup",

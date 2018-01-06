@@ -7,7 +7,7 @@ data:extend({
     enabled = false,
     ingredients = 
 	{
-	  {"iron-ore", 6},
+	  {"iron-ore", 2},
 	  {type="fluid", name="sulfuric-acid", amount=5},
 	  {type="fluid", name="water", amount=2}
 	},
@@ -22,7 +22,7 @@ data:extend({
     energy_required = 5,
     ingredients = 
 	{
-	  {"titanium-ore", 3}
+	  {"titanium-ore", 1}
 	},
     result = "titanium-alloy"
   },
@@ -59,22 +59,26 @@ data:extend({
   {
     type = "recipe",
     name = "repair-pack-mk2",
+    enabled = false,
     energy_required = 0.5,
     ingredients = 
 	{
 	  {"repair-pack", 2},
-	  {"iron-plate", 1}
+	  {"iron-gear-wheel", 1},
+	  {"advanced-circuit", 1}
 	},
     result = "repair-pack-mk2"
   },
   {
     type = "recipe",
     name = "repair-pack-mk3",
+    enabled = false,
     energy_required = 0.5,
     ingredients = 
 	{
-	  {"repair-pack", 4},
-	  {"iron-plate", 2}
+	  {"repair-pack-mk2", 2},
+	  {"iron-gear-wheel", 1},
+	  {"processing-unit", 1}
 	},
     result = "repair-pack-mk3"
   }
