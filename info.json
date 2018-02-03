@@ -1,12 +1,12 @@
 {
   "name": "FactorioExtended-Core",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "factorio_version": "0.16",
-  "date": "2017-12-24",
+  "date": "2018-02-20",
   "title": "FactorioExtended-Core",
-  "author": "Nath Gamer",
-  "contributers": "bNarFProfCrazy",
+  "author": "Nath Gamerz",
+  "contributers": "bNarFProfCrazy,jimmyjon711",
   "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
-  "description": "Extended Factorio",
-  "dependencies": ["base"]
+  "description": "A library of source code used through all the other modules of Factorio Extended!",
+  "dependencies": ["base >= 0.16.20"]
 }
