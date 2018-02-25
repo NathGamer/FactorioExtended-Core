@@ -1,5 +1,5 @@
-if not factorioextended then factorioextended = {} end
-if not factorioextended.core then factorioextended.core = {} end
+if not factorioextendedplus then factorioextendedplus = {} end
+if not factorioextendedplus.core then factorioextendedplus.core = {} end
 
 
 require("prototypes.recipe.recipe-functions")
