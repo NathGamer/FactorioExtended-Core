@@ -1,7 +1,10 @@
-data:extend({
+data:extend(
+{
   {
     type = "technology",
     name = "titanium-processing",
+    localised_name = {"technology-name.titanium-processing"},
+    localised_description = {"technology-name.titanium-processing"},
     icon = "__FactorioExtended-Plus-Core__/graphics/technology/steel-processing.png",
     icon_size = 128,
     prerequisites = {"sulfur-processing"},
@@ -21,8 +24,8 @@ data:extend({
       count = 150,
       ingredients = 
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1}
       },
       time = 15
     },
@@ -31,6 +34,8 @@ data:extend({
   {
     type = "technology",
     name = "upgraded-tools",
+    localised_name = {"technology-name.upgraded-tools"},
+    localised_description = {"technology-name.upgraded-tools"},
     icon = "__FactorioExtended-Plus-Core__/graphics/technology/steel-processing.png",
     icon_size = 128,
     prerequisites = {"titanium-processing", "advanced-electronics"},
@@ -40,9 +45,9 @@ data:extend({
         type = "unlock-recipe",
         recipe = "repair-pack-mk2"
       },
-    {
-        type = "unlock-recipe",
-        recipe = "titanium-axe"
+      {
+        type = "character-mining-speed",
+        modifier = 2
       }
     },
     unit =
@@ -50,9 +55,9 @@ data:extend({
       count = 150,
       ingredients = 
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1}
       },
       time = 25
     },
@@ -61,6 +66,8 @@ data:extend({
   {
     type = "technology",
     name = "upgraded-tools-2",
+    localised_name = {"technology-name.upgraded-tools-2"},
+    localised_description = {"technology-name.upgraded-tools-2"},
     icon = "__FactorioExtended-Plus-Core__/graphics/technology/steel-processing.png",
     icon_size = 128,
     prerequisites = {"upgraded-tools", "advanced-electronics-2"},
@@ -76,9 +83,9 @@ data:extend({
       count = 150,
       ingredients = 
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
         {"production-science-pack", 1}
       },
       time = 25

@@ -35,31 +35,6 @@ data:extend({
     order = "b-a",
     stack_size = 10
   },
-  
-  {
-    type = "mining-tool",
-    name = "titanium-axe",
-    icon = "__FactorioExtended-Plus-Core__/graphics/icons/titanium-axe.png",
-    icon_size = 32,
-    action =
-    {
-      type="direct",
-      action_delivery =
-      {
-        type = "instant",
-        target_effects =
-        {
-          type = "damage",
-          damage = { amount = 16 , type = "physical"}
-        }
-      }
-    },
-    durability = 10000,
-    subgroup = "fb-tools",
-    order = "a-a",
-    speed = 6,
-    stack_size = 10
-  },
   {
     type = "repair-tool",
     name = "repair-pack-mk2",

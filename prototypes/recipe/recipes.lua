@@ -40,18 +40,6 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "titanium-axe",
-    enabled = false,
-    ingredients =
-    {
-      {"titanium-alloy", 5},
-      {"iron-stick", 4}
-    },
-    result = "titanium-axe",
-    requester_paste_multiplier = 4
-  },
-  {
-    type = "recipe",
     name = "repair-pack-mk2",
     enabled = false,
     energy_required = 0.5,
