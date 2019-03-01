@@ -55,7 +55,7 @@ function factorioextendedplus.core.add_new_recipe_item (recipe, item)
     if ingredient[1] == item_name then addit = false end
     if ingredient.name == item_name then addit = false end
   end
-  if addit then table.insert(data.raw.recipe[recipe].ingredients,factorioextendedplus.core.item(item)) end
+  if addit then table.insert(data.raw.recipe[recipe].ingredients, item) end
 end
 
 function factorioextendedplus.core.add_recipe_item (recipe, item)
@@ -82,7 +82,7 @@ function factorioextendedplus.core.add_recipe_item (recipe, item)
       ingredient.amount = ingredient.amount + item_amount
     end
   end
-  if addit then table.insert(data.raw.recipe[recipe].ingredients,factorioextendedplus.core.item(item)) end
+  if addit then table.insert(data.raw.recipe[recipe].ingredients, item) end
 end
 
 
