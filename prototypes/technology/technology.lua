@@ -5,7 +5,7 @@ data:extend(
     name = "titanium-processing",
     localised_name = {"technology-name.titanium-processing"},
     localised_description = {"technology-name.titanium-processing"},
-    icon = "__FactorioExtended-Plus-Core__/graphics/technology/steel-processing.png",
+    icon = "__FactorioExtended-Plus-Core__/graphics/technology/titanium-processing.png",
     icon_size = 128,
     prerequisites = {"sulfur-processing"},
     effects =
@@ -36,7 +36,7 @@ data:extend(
     name = "upgraded-tools",
     localised_name = {"technology-name.upgraded-tools"},
     localised_description = {"technology-name.upgraded-tools"},
-    icon = "__FactorioExtended-Plus-Core__/graphics/technology/steel-processing.png",
+    icon = "__FactorioExtended-Plus-Core__/graphics/technology/hammer-wrench.png",
     icon_size = 128,
     prerequisites = {"titanium-processing", "advanced-electronics"},
     effects =
@@ -68,7 +68,7 @@ data:extend(
     name = "upgraded-tools-2",
     localised_name = {"technology-name.upgraded-tools-2"},
     localised_description = {"technology-name.upgraded-tools-2"},
-    icon = "__FactorioExtended-Plus-Core__/graphics/technology/steel-processing.png",
+    icon = "__FactorioExtended-Plus-Core__/graphics/technology/hammer-wrench.png",
     icon_size = 128,
     prerequisites = {"upgraded-tools", "advanced-electronics-2"},
     effects =
