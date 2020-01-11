@@ -1,13 +1,16 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.2
-Date: 03. 30. 2018
+Version: 0.3.0
+Date: 30. 12. 2019
   Changes :
-    - Re-balancing science
+    - Added thumbnail
+    - Changed group icon
+    - Changed technology graphics
+    - Reordered changelog.txt
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.3
-Date: 05. 25. 2018
+Version: 0.2.0
+Date: 03. 01. 2019
   Changes :
-    - Fixed not being able to use productivity modules in titanium ore
+    - Updating to work with 0.17
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 08. 25. 2018
@@ -16,7 +19,13 @@ Date: 08. 25. 2018
       repair packs showed up as unknown key
     - Also fixed technology locale for repair packs.
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.0
-Date: 03. 01. 2019
+Version: 0.1.3
+Date: 05. 25. 2018
   Changes :
-    - Updating to work with 0.17
+    - Fixed not being able to use productivity modules in titanium ore
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 03. 30. 2018
+  Changes :
+    - Re-balancing science
+---------------------------------------------------------------------------------------------------

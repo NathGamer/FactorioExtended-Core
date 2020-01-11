@@ -1,11 +1,11 @@
 {
   "name": "FactorioExtended-Plus-Core",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "factorio_version": "0.17",
   "date": "2019-03-01",
   "title": "FactorioExtended Plus-Core",
   "author": "jimmyjon711 (Original Author: Nath Gamer)",
-  "contributers": "bNarFProfCrazy",
+  "contributers": "bNarFProfCrazy, billbo99",
   "homepage": "",
   "description": "",
   "dependencies": ["base >= 0.17.00"]

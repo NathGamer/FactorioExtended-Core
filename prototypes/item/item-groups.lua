@@ -2,7 +2,7 @@ data:extend({
   {
     type = "item-group",
     name = "FactorioExtended",
-    icon = "__base__/graphics/item-group/signals.png",
+    icon = "__FactorioExtended-Plus-Core__/graphics/group/FEP_64.png",
     icon_size = 64,
     inventory_order = "f",
     order = "f"
@@ -48,6 +48,12 @@ data:extend({
     name = "fb-logistics",
     group = "FactorioExtended",
     order = "g"
+  },
+  {
+    type = "item-subgroup",
+    name = "fb-vehicle",
+    group = "FactorioExtended",
+    order = "f"
   },
   {
     type = "item-subgroup",
