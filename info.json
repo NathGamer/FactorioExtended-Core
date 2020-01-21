@@ -1,12 +1,14 @@
 {
-  "name": "FactorioExtended-Plus-Core",
-  "version": "0.3.0",
-  "factorio_version": "0.17",
-  "date": "2019-03-01",
-  "title": "FactorioExtended Plus-Core",
-  "author": "jimmyjon711 (Original Author: Nath Gamer)",
-  "contributers": "bNarFProfCrazy, billbo99",
-  "homepage": "",
-  "description": "",
-  "dependencies": ["base >= 0.17.00"]
+    "name": "FactorioExtended-Plus-Core",
+    "version": "0.4.0",
+    "factorio_version": "0.18",
+    "date": "2020-01-21",
+    "title": "FactorioExtended Plus-Core",
+    "author": "jimmyjon711 (Original Author: Nath Gamer)",
+    "contributers": "bNarFProfCrazy, billbo99",
+    "homepage": "",
+    "description": "",
+    "dependencies": [
+        "base >= 0.18.00"
+    ]
 }

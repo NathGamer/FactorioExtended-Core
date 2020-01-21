@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 21. 01. 2020
+  Changes :
+    - Support 0.18
+---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 30. 12. 2019
   Changes :
@@ -15,7 +20,7 @@ Date: 03. 01. 2019
 Version: 0.1.4
 Date: 08. 25. 2018
   Changes :
-    - Fixes Repair Pack locale, Repair pack locale was in weaponry mod and if you didnt have it installed 
+    - Fixes Repair Pack locale, Repair pack locale was in weaponry mod and if you didnt have it installed
       repair packs showed up as unknown key
     - Also fixed technology locale for repair packs.
 ---------------------------------------------------------------------------------------------------
