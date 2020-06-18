@@ -6,6 +6,10 @@ table.insert(data.raw["module"]["productivity-module"].limitation, "titanium-ore
 table.insert(data.raw["module"]["productivity-module-2"].limitation, "titanium-ore")
 table.insert(data.raw["module"]["productivity-module-3"].limitation, "titanium-ore")
 
+table.insert(data.raw["module"]["productivity-module"].limitation, "titanium-alloy")
+table.insert(data.raw["module"]["productivity-module-2"].limitation, "titanium-alloy")
+table.insert(data.raw["module"]["productivity-module-3"].limitation, "titanium-alloy")
+
 data:extend({
   {
     type = "item",
