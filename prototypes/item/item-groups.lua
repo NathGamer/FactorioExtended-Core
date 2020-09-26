@@ -2,8 +2,8 @@ data:extend({
   {
     type = "item-group",
     name = "FactorioExtended",
-	icon_size = 64,
-    icon = "__base__/graphics/item-group/signals.png",
+    icon = "__FactorioExtended-Plus-Core__/graphics/group/FEP_64.png",
+    icon_size = 64,
     inventory_order = "f",
     order = "f"
   },
@@ -33,27 +33,27 @@ data:extend({
   },
   {
     type = "item-subgroup",
-    name = "fb-energy-production-renewable",
+    name = "fb-energy-production",
     group = "FactorioExtended",
-    order = "e-a-a"
-  },
-  {
-    type = "item-subgroup",
-    name = "fb-energy-production-steam",
-    group = "FactorioExtended",
-    order = "e-a-b"
+    order = "e"
   },
   {
     type = "item-subgroup",
     name = "fb-energy-transfer",
     group = "FactorioExtended",
-    order = "e-b"
+    order = "e"
   },
   {
     type = "item-subgroup",
     name = "fb-logistics",
     group = "FactorioExtended",
     order = "g"
+  },
+  {
+    type = "item-subgroup",
+    name = "fb-vehicle",
+    group = "FactorioExtended",
+    order = "f"
   },
   {
     type = "item-subgroup",

@@ -1,4 +1,4 @@
-function factorioextended.core.replace_recipe_item (recipe, old, new)
+function factorioextendedplus.core.replace_recipe_item (recipe, old, new)
   local doit = false
   local amount = 0
   if data.raw.recipe[recipe] then
@@ -13,13 +13,13 @@ function factorioextended.core.replace_recipe_item (recipe, old, new)
       end
     end
     if doit then
-      factorioextended.core.remove_recipe_item (recipe, old)
-      factorioextended.core.add_recipe_item (recipe, {new, amount})
+      factorioextendedplus.core.remove_recipe_item (recipe, old)
+      factorioextendedplus.core.add_recipe_item (recipe, {new, amount})
     end
   end
 end
 
-function factorioextended.core.replace_recipe_item_crude (recipe, old, new)
+function factorioextendedplus.core.replace_recipe_item_crude (recipe, old, new)
   if data.raw.recipe[recipe] then
     for i, ingredient in pairs(data.raw.recipe[recipe].ingredients) do
       if ingredient[1] == old then ingredient[1] = new end
@@ -28,13 +28,13 @@ function factorioextended.core.replace_recipe_item_crude (recipe, old, new)
   end
 end
 
-function factorioextended.core.replace_item_all_recipes (old, new)
+function factorioextendedplus.core.replace_item_all_recipes (old, new)
   for i, recipe in pairs(data.raw.recipe) do
-    factorioextended.core.replace_recipe_item (recipe.name, old, new)
+    factorioextendedplus.core.replace_recipe_item (recipe.name, old, new)
   end
 end
 
-function factorioextended.core.remove_recipe_item (recipe, item)
+function factorioextendedplus.core.remove_recipe_item (recipe, item)
   for i, ingredient in pairs(data.raw.recipe[recipe].ingredients) do
     if ingredient[1] == item or ingredient.name == item then
       table.remove(data.raw.recipe[recipe].ingredients, i)
@@ -42,7 +42,7 @@ function factorioextended.core.remove_recipe_item (recipe, item)
   end
 end
 
-function factorioextended.core.add_new_recipe_item (recipe, item)
+function factorioextendedplus.core.add_new_recipe_item (recipe, item)
   local addit = true
   local item_name
   if item.name then
@@ -55,10 +55,10 @@ function factorioextended.core.add_new_recipe_item (recipe, item)
     if ingredient[1] == item_name then addit = false end
     if ingredient.name == item_name then addit = false end
   end
-  if addit then table.insert(data.raw.recipe[recipe].ingredients,factorioextended.core.item(item)) end
+  if addit then table.insert(data.raw.recipe[recipe].ingredients, item) end
 end
 
-function factorioextended.core.add_recipe_item (recipe, item)
+function factorioextendedplus.core.add_recipe_item (recipe, item)
   local addit = true
   local item_name
   if item.name then
@@ -82,7 +82,7 @@ function factorioextended.core.add_recipe_item (recipe, item)
       ingredient.amount = ingredient.amount + item_amount
     end
   end
-  if addit then table.insert(data.raw.recipe[recipe].ingredients,factorioextended.core.item(item)) end
+  if addit then table.insert(data.raw.recipe[recipe].ingredients, item) end
 end
 
 
